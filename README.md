@@ -1,4 +1,4 @@
-# velozient-password-manager-demo
+# password-manager-demo
 
 ## Project setup
 ```
