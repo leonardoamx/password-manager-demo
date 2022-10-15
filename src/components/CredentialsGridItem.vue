@@ -1,9 +1,16 @@
 <template>
-  <div class="credential-item">
-    <span class="text-lg">{{item.name}}</span>
-    <span>URL: {{item.url}}</span>
-    <span>Userame: {{item.username}}</span>
-    <router-link v-bind:to="`/credentials/${item.id}`">Details</router-link>
+  <div class="credential-item rounded-lg bg-white p-4 shadow-xl shadow-black/5 hover:bg-slate-50 ring-2 ring-indigo-600">
+    <div class="flex justify-between">
+      <div class="font-bold text-slate-900">{{item.name}}</div>
+    </div>
+    <div class="mt-1 text-slate-700">
+      <span class="font-bold">URL: </span>
+      <span>{{item.url}}</span>
+    </div>
+    <div class="mt-1 text-slate-700">
+      <span class="font-bold">Username: </span>
+      <span>{{item.username}}</span>
+    </div>
   </div>
 </template>
 

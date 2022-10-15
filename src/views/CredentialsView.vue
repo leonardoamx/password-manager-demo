@@ -1,6 +1,6 @@
 <template>
-  <div class="credentials">
-    <h1>Store your account credentials in a single place</h1>
+  <div class="credentials mx-8 my-8">
+    <h1 class="text-bold text-lg">Store your account credentials in a single place</h1>
     <p>Entries: {{credentialsTotal}}</p>
     <CredentialsGrid
       :items="credentials"
